@@ -7,12 +7,12 @@ function mostrarImagem(img){
 function imagemEsquerda(){
   var btnEsquerda = document.getElementsByClassName("btnEsquerda");
   btnEsquerda.src=img.src;
-  btnEsquerda.parentElement.style.display='block';
+  btnEsquerda.parentElement.style.display='role';
 }
 function imagemDireita(){
   var btnDireita = document.getElementsByClassName("btnDireita");
   btnDireita.src=img.src;
-  btnDireita.parentElement.style.display='block';
+  btnDireita.parentElement.style.display='role';
 }
 
 var scrollAtual = 0;
