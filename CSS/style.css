@@ -1,0 +1,221 @@
+@charset "UTF-8";
+:root {
+  --cor0: #f7bc95;
+  --cor1: #ec3d0d;
+  --cor2: #fceea9;
+  --cor3: #f76241;
+  --cor4: #a80c03;
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: 'Bebas Neue', cursive;
+  --fonte-android: 'Android', cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+header {
+  background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+
+  min-height: 150px;
+
+  padding-top: 40px;
+}
+
+header > div.container{
+  display: inline-flex;
+  align-items:flex-start;
+  
+}
+
+header img.pequena {
+  max-width: 500px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  
+}
+
+header > div.container, h1 {
+  font-size: x-large;
+  text-shadow: 2px 2px 2px black;
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: var(--fonte-android);
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.588);
+}
+
+nav {
+  background-color: var(--cor2);
+  
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.468);
+}
+
+nav > a {
+  color: var(--cor1);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+nav > a:hover {
+  background-color: var(--cor3);
+  color: var(--cor5);
+}
+
+main {
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: var(--cor1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+main .unica {
+  font-size: 30px;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+
+}
+
+main > h2 {
+  padding: 20px;
+  color: white;
+}
+
+.galeria {
+  margin-top:30px;
+    width:650px;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border:1px solid rgb(241, 6, 6);
+    white-space: nowrap;
+
+}
+
+.galeria{
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.galeria > img {
+  opacity: 0.3;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  
+ 
+  
+  
+}
+
+.galeria > img:hover{
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  display: none;
+  width: 30%;
+  margin: auto;
+
+}
+
+.contanier > img {
+  width: 100%;
+  
+}
+
+.btnFechar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btnEsquerda{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  color: white;
+  font-size: 50px;
+  cursor:pointer;
+}
+
+ .btnDireita {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: white;
+  font-size: 50px;
+  cursor:pointer;
+  
+}
+
+
+
+main img.miniatura {
+  display: auto;
+  width: 300px;
+  height: 300px;
+ 
+}
+
+p {
+  padding: 10px;
+  text-align: left;
+  text-indent: 50px;
+}
+
+h3 {
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+footer > p > a {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
