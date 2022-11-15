@@ -161,12 +161,6 @@ main > h2 {
   
 }
 
-.videos {
-  margin-top:30px;
-    width:650px;
-    height: 300px;
-} 
-
 .btnFechar {
   position: absolute;
   top: 10px;
@@ -195,7 +189,30 @@ main > h2 {
   
 }
 
+.videos {
+  margin-top:30px;
+    width:650px;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border:1px solid rgb(241, 6, 6);
+    white-space: nowrap;
 
+}
+
+.videos{
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.videos > iframe {
+  
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+}
 
 main img.miniatura {
   display: auto;
