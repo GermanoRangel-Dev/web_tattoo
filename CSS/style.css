@@ -161,6 +161,12 @@ main > h2 {
   
 }
 
+.videos {
+  margin-top:30px;
+    width:650px;
+    height: 300px;
+} 
+
 .btnFechar {
   position: absolute;
   top: 10px;
